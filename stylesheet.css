@@ -1,9 +1,16 @@
 
-/*Begin content*/
+/*Begin body*/
+.container {
+	max-width: 900px;
+}
+
+
+/*Begin Nav*/
 
 .nav-bar {
 	height:75px;
 }
+
 .logo {
 	height: 50px;
 	padding-top: 20px;
@@ -12,13 +19,66 @@
 .nav-logo {
 	display:inline-block;
 }
+
+
 .nav-links, .nav-links > li {
 	display: inline-block;
 	float: right;
 }
 
-.nav-links > li {
-	padding: 30px 20px;
-
+.nav-links {
+	float:right;
 }
 
+.nav-links > li {
+	padding: 30px 20px;
+}
+
+
+/*Begin Juumbotron*/
+
+
+.jumbotron {
+	background: url('images/nightime.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 45rem;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-family: 'Arimo', sans-serif;
+}
+
+.jumbo-container > h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+.jumbo-logo {
+	height: 5rem;
+	margin-top: 10px; 
+}
+
+/*Begin About Me Section*/
+
+.me img-responsive {
+	margin: 0 auto;
+}
+
+/*Begin icon Section*/
+
+.icon-container {
+	padding: 5rem;
+}
+
+.icon {
+	margin: 0 auto;
+	display:block;
+	height: 100px;
+}
+
+
+.icon-section > p, .icon-section >h3 {
+	text-align: center;
+}
