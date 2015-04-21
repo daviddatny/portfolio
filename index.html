@@ -7,21 +7,22 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class"main-body">
 
 <!-- begin Navigation section -->
 		<div class="container">
-			<nav class="row nav-bar">
-				<div class="col-md-1 nav-logo">
+			<nav class=" nav-bar">
+				<div class="col-sm-1 nav-logo">
 						<img class="logo" src="http://eastbaytees.com/graphics/DD_Logos/DD_Only.png">
 				</div>
-				<ul class="col-md-11 nav-links nav nav-pills">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About me</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+				<ul class="col-sm-11 nav-links nav nav-pills">
+					<li class="nav-item"><a href="#">Home</a></li>
+					<li class="nav-item"><a href="#">About me</a></li>
+					<li class="nav-item"><a href="#">Blog</a></li>
+					<li class="nav-item"><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -30,12 +31,12 @@
 
 	<!-- begin Jumbotron section -->
 		<section>
-			<div class="background-image">
-				<div class="jumbotron">
+			<div>
+				<div class="jumbotron background-image">
 					<div class="container jumbo-container">
 						<p>Hi, I'm David Datny and</p>
 						<h1>I am a Front-End Developer</h1>
-						<img class="jumbo-logo" src="http://eastbaytees.com/graphics/DD_Logos/DD_Only.png">
+						<img class="jumbo-logo" src="images/david.png">
 					</div>
 				</div>
 			</div>
@@ -52,11 +53,11 @@
 
 			<section>
 				<div class="row">
-					<div class="col-md-5 col-sm-5">
-						<img src="http://fpoimg.com/300x300?text=David Datny" alt="David Datny" class="me img-responsive">
+					<div class="col-md-5 col-sm-5 about-me-image">
+						<img src="http://fpoimg.com/300x300?text=David Datny" alt="David Datny" class="me center-block">
 					</div>
 					<div class="col-md-7 col-sm-7">
-						<h2>About Me</h2>
+						<h2 class="about-me">About Me</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse vero officiis voluptates in quos temporibus ipsa quaerat repellat, tempora adipisci vitae, deserunt praesentium, assumenda similique labore harum? Veniam, officia, doloremque!</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto officiis facilis, itaque ipsam tenetur, nisi culpa placeat dicta dolorum, voluptatibus deserunt eius sequi exercitationem aspernatur ipsum repellat beatae fugiat.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto officiis facilis, itaque ipsam tenetur, nisi culpa placeat dicta dolorum, voluptatibus deserunt eius sequi exercitationem aspernatur ipsum repellat beatae fugiat.</p>
@@ -75,18 +76,65 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil amet aliquid!</p>
 					</div>
 					<div class="col-md-4 icon-section">
-						<img class="icon" src="images/boy.png">
+						<img class="icon" src="images/captain.png">
 						<h3>Some Text</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil amet aliquid!</p>
 					</div>
 					<div class="col-md-4 icon-section">
-						<img class="icon" src="images/boy.png">
+						<img class="icon" src="images/paint.png">
 						<h3>Some Text</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil amet aliquid!</p>
 					</div>
 				</div>
 			</section>
+<!-- end About Me section -->
 
+<!-- begin Portfolio section -->
+
+			<section class="row">
+				<div class="col-md-12 text-center">
+					<h2>Projects</h2>
+				</div>
+			</section>
+			<section class="row">
+				<div class="col-sm-6">
+					<img class="img-responsive center-block portfolio-item" src="http://fpoimg.com/400x300?text=Project #1" alt="portfolio item #1">
+				</div>
+				<div class="col-sm-6">
+					<img class="img-responsive center-block portfolio-item" src="http://fpoimg.com/400x300?text=Project #2" alt="portfolio item #2">
+				</div>
+			</section >
+			<section class="row bottom-row">
+				<div class="col-sm-6">
+					<img  class="img-responsive center-block portfolio-item" src="http://fpoimg.com/400x300?text=Project #3" alt="portfolio item #3">
+				</div>
+				<div class="col-sm-6">
+					<img class=" img-responsive center-block portfolio-item" src="http://fpoimg.com/400x300?text=Project #3" alt="portfolio item #4">
+				</div>
+			</section>
+
+<!-- end Portfolio section -->
+
+			<footer class="row">
+				<div class="col-sm-12 footer">
+				<hr class="social-rule">
+					<h3 class="text-center">Find Me</h3>
+					<ul class="social">
+						<li>
+							<li class="fa fa-facebook-square fa-3x"></i>
+						</li>
+						<li>
+							<i class="fa fa-linkedin-square fa-3x"></i>						
+						</li>
+						<li>
+							<i class="fa fa-twitter-square fa-3x"></i>
+						</li>
+						<li>
+							<i class="fa fa-instagram fa-3x"></i>
+						</li>
+					</ul>
+				</div>
+			</footer>
 
 
 
