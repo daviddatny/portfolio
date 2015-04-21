@@ -21,14 +21,21 @@
 }
 
 
-.nav-links, .nav-links > li {
+.nav-links {
 	float: right;
+	width: 360px;
+	padding-top:1.6rem;
 }
 
 .nav-links > li {
 	padding: 1rem 1rem;
 }
 
+li {
+	font-family: 'Arimo', sans-serif;
+	font-size:14px;
+	font-weight: 600;
+}
 
 /*Begin Juumbotron*/
 
@@ -128,7 +135,16 @@ li {
 	height: 5.1rem;
 	margin-top: 0;
 	}
-	.nav-links > li {
-	padding: 1rem 2rem;
+	
 }
+
+@media (max-width: 480px) and (max-width: 767px) {
+	.nav-links > li {
+	padding: 5px 5px;
+	}
+	.nav-logo {
+		text-align: center;
+		display: block;
+		text-align: center;
+	}
 }
