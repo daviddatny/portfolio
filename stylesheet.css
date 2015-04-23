@@ -7,8 +7,21 @@
 
 /*Begin Nav*/
 
-.nav-bar {
-	height:75px;
+.nav-color {
+	background-color: white;
+	width: 100%;
+	height: 7rem;
+	position: fixed;
+	z-index: 9999;
+	border: 1px solid lightgrey;
+}
+
+.navbar-custom-fixed {
+	margin: 0 auto;
+}
+
+.navbar {
+	height:7rem;
 }
 
 .logo {
@@ -23,7 +36,6 @@
 
 .nav-links {
 	float: right;
-	width: 360px;
 	padding-top:1.6rem;
 }
 
@@ -45,9 +57,10 @@ li {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 34rem;
+	height: 35.5rem;
 	text-align: center;
 	color: white;
+	padding-top: 75px;
 }
 
 
@@ -56,8 +69,13 @@ p {
 	font-family: 'Arimo', sans-serif;
 }
 
+.jumbo-container > p {
+	margin-top: 35px;
+}
+
 .jumbo-container > h1 {
 	font-family: 'Pacifico', cursive;
+
 }
 
 .jumbo-logo {
@@ -84,6 +102,10 @@ p {
 	padding: 5rem;
 }
 
+.icon-background {
+	background-color: #05C7F2;
+}
+
 .icon {
 	margin: 0 auto;
 	display:block;
@@ -96,16 +118,26 @@ p {
 
 /*Begin Portfolio Section*/
 
+.text-center > h2 {
+	margin-bottom: 25px;
+}
+
 .bottom-row {
 	margin-bottom: 3rem;
 }
+
 
 .portfolio-item {
 	margin-top: 20px ;
 	margin-bottom: 20px;
 }
 
+
 /*Begin Footer Section*/
+
+.footer-background {
+	background-color: #8CBF3F;
+}
 
 li {
 	list-style-type: none;
@@ -117,13 +149,24 @@ li {
 	text-align: center;
 }
 
+
 .social-rule {
 	margin: 60px 0;
+}
+
+.footer > h3 {
+	padding-bottom: 25px;
+}
+
+.social > li {
+	padding: 0 10px 0 10px;
 }
 
 .footer {
 	margin-bottom: 60px;
 }
+
+
 /*Begin Media Queries Section*/
 
 
@@ -132,13 +175,13 @@ li {
 		height: 22rem;
 	}
 	.jumbo-logo {
-	height: 5.1rem;
+	height: 9.1rem;
 	margin-top: 0;
 	}
 	
 }
 
-@media (max-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 	.nav-links > li {
 	padding: 5px 5px;
 	}
@@ -146,5 +189,29 @@ li {
 		text-align: center;
 		display: block;
 		text-align: center;
+	}
+	.jumbo-logo {
+	height: 5.1rem;
+	
+	}
+}
+
+@media (max-width: 480px)   {
+	.nav-color {
+	height:10rem;
+	}
+	.nav-links {
+		text-align: center;
+		width: 100%;
+		padding: 10px 50px;
+	}
+	.navbar-custom-fixed {
+	position:static;
+	}
+	.nav-color {
+		position: relative;
+	}
+	.logo {
+		height: 40px;
 	}
 }
